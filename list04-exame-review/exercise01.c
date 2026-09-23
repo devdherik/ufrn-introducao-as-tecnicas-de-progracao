@@ -20,11 +20,11 @@ int main(void){
 
 double desconto_por_pontos(int pontos){
 
-    if (pontos >= 200 && pontos >500){
+    if (pontos >= 200 && pontos <500){
         return 0.05;
     } else if(pontos >=500 && pontos <1000){
-        return 0.1;
-    } else if(pontos <=1000){
+        return 0.10;
+    } else if(pontos >=1000){
         return 0.15;
     }
     return 0.0;
