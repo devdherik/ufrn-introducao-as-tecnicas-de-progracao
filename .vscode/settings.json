@@ -1,0 +1,11 @@
+{
+  "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
+  "C_Cpp.default.cStandard": "c99",
+  "terminal.integrated.env.windows": {"PATH": "C:\\msys64\\ucrt64\\bin;${env:PATH}"},
+  "code-runner.runInTerminal": true,
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.ignoreSelection": true,
+  "code-runner.executorMap": {
+    "c": "powershell.exe -NoProfile -ExecutionPolicy Bypass -File \"$workspaceRoot\\executar.ps1\" -Arquivo \"$fullFileName\""
+  }
+}
